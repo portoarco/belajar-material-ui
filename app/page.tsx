@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { MuiTyphography } from "./components/MuiTypography";
 
 export default function Home() {
   return (
     <>
       <section>
-        <p>Hello World</p>
+        <MuiTyphography />
       </section>
     </>
   );
